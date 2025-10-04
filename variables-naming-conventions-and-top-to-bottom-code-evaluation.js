@@ -24,9 +24,10 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";
+let itemsPurchased = 5;
+let totalPrice = 20;
+let customerReceipt = customerName + " bought " + itemsPurchased + " items for $" + totalPrice + ".";
+let thankYouResponse = " Thank you for your purchase "+customerName+"!";
 
-console.log(d);
+console.log(customerReceipt + thankYouResponse);
